@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         darkBackground: "#0C111F",
-        brightColor: "#F9EC7D",
+        brightColor: "#FFD700",
       },
     },
   },
