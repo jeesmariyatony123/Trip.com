@@ -16,7 +16,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div>
-                    <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">
+                    <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0  ">
                         Destination
                     </h1>
                     <nav className=" flex flex-col gap-2">
@@ -29,7 +29,7 @@ const Footer = () => {
                     </nav>
                 </div>
                 <div>
-                    <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">About</h1>
+                    <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0 ">About</h1>
                     <nav className=" flex flex-col gap-2">
                         <a className=" hover:text-brightColor transition-all cursor-pointer"
                             href="/" >Contact Us</a>
@@ -40,8 +40,8 @@ const Footer = () => {
                     </nav>
                 </div>
                 <div>
-                    <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Follow Us</h1>
-                    <nav className=" flex flex-col md:items-center gap-2">
+                    <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0 ">Follow Us</h1>
+                    <nav className=" flex flex-row md:items-center gap-2">
                         <BsFacebook
                             size={25}
                             className="hover:text-brightColor transition-all cursor-pointer"

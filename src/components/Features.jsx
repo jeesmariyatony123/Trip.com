@@ -7,7 +7,7 @@ import pic3 from '../assets/img/wallet.png'
 
 const Features = () => {
     return (
-        <div className=" min-h-screen flex flex-col lg:flex-row items-center md:mx-32 mx-5 gap-14">
+        <div className=" min-h-screen flex flex-col lg:flex-row items-center md:mx-32 mx-5 gap-14 ">
             <div className=" w-full lg:w-2/4">
                 <div className=" space-y-4">
                     <h1 className=" text-4xl font-medium text-center md:text-start leading-tight">

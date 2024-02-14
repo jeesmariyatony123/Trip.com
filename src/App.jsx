@@ -18,7 +18,7 @@ const App = () => {
           <Home />
         </div>
 
-        <div id='features'>
+        <div id='features' className='bg-slate-100'>
           <Features />
         </div>
 
@@ -30,7 +30,7 @@ const App = () => {
           <About />
         </div>
 
-        <div>
+        <div id='contact'>
           <Contact />
         </div>
       </main>

@@ -5,7 +5,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
 
-    const backgroundColor = 'bg-white'
+    const backgroundColor = 'bg-brightColor'
 
     const [menu, setMenu] = useState(false)
 

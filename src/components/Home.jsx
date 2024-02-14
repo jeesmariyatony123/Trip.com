@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../layouts/Button'
 import { Link } from 'react-scroll'
-import img from '../assets/img/hero.jpg'
+// import img from '../assets/img/hero.jpg'
 
 const Home = () => {
 
@@ -12,7 +12,7 @@ const Home = () => {
         <h1 className='font-semibold text-5xl leading-tight'>Discover the Best Destinations</h1>
 
         <p>With Trip.com you can experience new travel and the best tourist destinations that we have to offer</p>
-        <div className='lg:pl-24'>
+        <div className='lg:pl-2'>
           <Link to="destination" spy={true} smooth={true} duration={500}>
             <Button title="Destinations" backgroundColor={backgroundColor} />
           </Link>
